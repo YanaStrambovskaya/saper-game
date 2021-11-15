@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #ffe8f1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option-wrapper {
+    margin-top: 53px;
+    margin-bottom: 17px;
+}
+
+.option-wrapper button {
+    border: none;
+    padding: 5px 10px;
+}
+
+#restart {
+    background-color: #FF6BA2;
+    color: #fff;
+}
+
+#restart:active {
+    background-color: #bc4a74;
+}
+
+#start {
+    background-color: #23A65F;
+    color: #fff;
+}
+
+#start:active {
+    background-color: #187d46;
+}
+
+#start:disabled {
+    background-color: #23a65f75;
+}
+
+#restart:disabled {
+    background-color: #ff6ba27a;
+}
+
+.restart-wraper {
+    margin-top: 16px;
+}
+
+#flags {
+    margin-bottom: 13px;
+}
+
+#flags p {
+    display: inline;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+#flags img {
+    vertical-align: middle;
+}
+
+#app, .option-wrapper {
+    text-align: center;
+}
+
+#options {
+    margin-bottom: 8px;
+}
+
+.saper {
+    border: 2px solid #FF6BA2;
+    display: inline-block;
+    padding: 0px;
+}
+
+.saper div {
+    padding: 0;
+    height: 35px;
+    margin: 0;
+}
+
+.saper img {
+    width: 35px;
+    height: 35px;
+    margin: 0;
+}
